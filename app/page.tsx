@@ -9,7 +9,7 @@ export default function HomePage() {
                 <ProductCard />
             </div>
             <div className="">
-                <Link href="/users">Users</Link>
+                <Link href="/users" className="font-bold text-sm text-blue-600">Users</Link>
             </div>
         </main>
     )
